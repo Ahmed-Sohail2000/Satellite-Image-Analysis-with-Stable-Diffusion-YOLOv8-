@@ -25,15 +25,25 @@ This repository contains a complete **Stable Diffusion fine-tuning and image gen
 ## 📂 Folder Structure
 
 ├── dataset/ # Your input .tif dataset
+
 ├── output/
+
 │ ├── batch_50/ # Generated PNG images
+
 │ ├── metrics/ # Metric plots + JSON results
+
 │ │ ├── clip_scores.png
+
 │ │ ├── fid_scores.png
+
 │ │ └── final_metrics.json
+
 │ ├── images_batch_50.zip # Exported generated images
+
 │ └── metrics.zip # Exported metrics folder
+
 ├── pipeline.py # Main pipeline script
+
 └── README.md # This file
 
 ---
@@ -96,3 +106,6 @@ Example CLIP score plot:
 
 <img width="1000" height="600" alt="clip_scores" src="https://github.com/user-attachments/assets/53f70687-a194-4bc3-ae07-e5d5461b1063" />
 
+## 📜 License
+
+This project is licensed under the MIT License — you are free to use, modify, and distribute with attribution.
